@@ -6,9 +6,9 @@ Estimate of time needed to complete: 60 minutes
 
 Start time: 1300
 
-Finish time: _____
+Finish time: 1310
 
-Actual time needed to complete: _____
+Actual time needed to complete: 10 minutes
 ---
 
 Number and name of feature: Feature #2: Modify the contents

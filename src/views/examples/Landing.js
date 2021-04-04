@@ -81,15 +81,16 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        My Portfolio{" "}
+                        {/* <span>completed with examples</span> */}
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                        I think the ability to change people's lives for the better, through technology. The flexibility of working from home is another, or working for a company on the East Coast from my home in Seattle.
+                        <br></br>
+                        <br></br>
+                        Check out some of my projects below!
                       </p>
-                      <div className="btn-wrapper">
+                      {/* <div className="btn-wrapper">
                         <Button
                           className="btn-icon mb-3 mb-sm-0"
                           color="info"
@@ -112,7 +113,7 @@ class Landing extends React.Component {
                             Download React
                           </span>
                         </Button>
-                      </div>
+                      </div> */}
                     </Col>
                   </Row>
                 </div>
@@ -148,31 +149,63 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            Gallery of Horns
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            A React app that displays different horned animals, allowing the user to filter based on the number of horns. 
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
-                              design
+                              React
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              system
+                              JavaScript
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              creative
+                              bootstrap.js
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
                             color="primary"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            href="https://reverent-hopper-43987e.netlify.app/"
+                            // onClick={e => e.preventDefault()}
                           >
-                            Learn more
+                            View Site
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
+                            <i className="ni ni-planet" />
+                          </div>
+                          <h6 className="text-warning text-uppercase">
+                            Recipe Roulette
+                          </h6>
+                          <p className="description mt-3">
+                          A website that produces a randomized meal recipe from user selected categories, providing options to help a user narrow down what appeals to their appetite.
+                          </p>
+                          <div>
+                            <Badge color="warning" pill className="mr-1">
+                              HTML
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              CSS
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              JavaScript
+                            </Badge>
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="warning"
+                            href="https://oakfive.github.io/recipe-roulette/"
+                            // onClick={e => e.preventDefault()}
+                          >
+                            View Site
                           </Button>
                         </CardBody>
                       </Card>
@@ -249,6 +282,7 @@ class Landing extends React.Component {
                         </CardBody>
                       </Card>
                     </Col>
+                    
                   </Row>
                 </Col>
               </Row>
