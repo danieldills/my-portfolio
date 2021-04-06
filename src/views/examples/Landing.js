@@ -346,7 +346,8 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
-          <section className="section section-lg">
+{/* //This is where I could highlight a project */}
+          {/* <section className="section section-lg">
             <Container>
               <Row className="row-grid align-items-center">
                 <Col className="order-md-2" md="6">
@@ -422,7 +423,7 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section>
+          </section> */}
           <section className="section bg-secondary">
             <Container>
               <Row className="row-grid align-items-center">
@@ -437,8 +438,8 @@ class Landing extends React.Component {
                 </Col>
                 <Col md="6">
                   <div className="pl-md-5">
-                    <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
-                      <i className="ni ni-settings" />
+                    <div className="icon icon-lg icon-shape icon-shape-primary shadow rounded-circle mb-5">
+                      <i className="fa fa-home" />
                     </div>
                     <h3>About Me</h3>
                     <p className="lead">
@@ -450,7 +451,7 @@ class Landing extends React.Component {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                     </p>
                     <a
-                      className="font-weight-bold text-warning mt-5"
+                      className="font-weight-bold text-primary mt-5"
                       href="https://www.linkedin.com/in/danieldills/"
                     >
                       Let's stay connected.
