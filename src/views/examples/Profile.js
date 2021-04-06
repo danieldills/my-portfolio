@@ -85,7 +85,7 @@ class Profile extends React.Component {
                       lg="4"
                     >
                       <div className="card-profile-actions py-4 mt-lg-0">
-                        <Button
+                        {/* <Button
                           className="mr-4"
                           color="info"
                           href="https://www.linkedin.com/in/danieldills/"
@@ -93,8 +93,8 @@ class Profile extends React.Component {
                           size="sm"
                         >
                           LinkedIn
-                        </Button>
-                        <Button
+                        </Button> */}
+                        {/* <Button
                           className="float-right"
                           color="default"
                           href="https://github.com/danieldills"
@@ -102,15 +102,15 @@ class Profile extends React.Component {
                           size="sm"
                         >
                           GitHub
-                        </Button>
+                        </Button> */}
                       </div>
                     </Col>
                   </Row>
                   <div className="text-center mt-5">
-                    <h3>
+                    <h2>
                       Daniel Dills{" "}
                       <span className="font-weight-light"></span>
-                    </h3>
+                    </h2>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
                       Greater Seattle Area, Washington
